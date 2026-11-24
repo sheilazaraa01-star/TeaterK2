@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Website resmi pertunjukan Teater TARUHAN."
+    />
+    <title>Teater K2</title>
+    <link rel="icon" type="image/svg+xml" href="images/LOGOS KADUAS.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Navigasi utama">
+        <a class="brand" href="#beranda">
+          <img
+            src="images/LOGOS KADUAS.png"
+            alt="Logo Teater TARUHAN"
+            class="nav-logo"
+          />
+          <span>TEATER KOMEDI KONTEMPORER</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Buka menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav-links" id="navLinks">
+          <a href="#beranda">Beranda</a>
+          <a href="#tentang">Tentang</a>
+          <a href="#pentas">Pentas</a>
+          <a href="#arsip">Arsip</a>
+          <a href="#dokumentasi">Dokumentasi</a>
+          <a href="#kontak">Kontak</a>
+          <a href="#tiket" class="nav-ticket">Tiket</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="beranda" aria-label="Sorotan pertunjukan">
+        <div class="hero-slides">
+          <div
+            class="hero-slide active"
+            style="background-image: url(images/Desain\ Efek\ Disobek\ atau\ Terbakar.png)"
+          ></div>
+          <div
+            class="hero-slide"
+            style="background-image: url(images/DSC05924.JPG)"
+          ></div>
+          <div
+            class="hero-slide"
+            style="background-image: url(images/IMG_9270.JPG)"
+          ></div>
+        </div>
+        <div class="hero-shade"></div>
+        <div class="hero-content container">
+          <p class="eyebrow">PERTUNJUKAN TEATER</p>
+          <h1>TARUHAN</h1>
+          <p class="hero-description">
+            Setiap pilihan punya cerita. Setiap keputusan punya konsekuensi.
+          </p>
+          <a href="#pentas" class="button button-primary"
+            >Jelajahi Pertunjukan</a
+          >
+        </div>
+        <button
+          class="slider-arrow slider-prev"
+          id="prevSlide"
+          aria-label="Slide sebelumnya"
+        >
+          &#10094;
+        </button>
+        <button
+          class="slider-arrow slider-next"
+          id="nextSlide"
+          aria-label="Slide berikutnya"
+        >
+          &#10095;
+        </button>
+        <div class="slider-dots" id="sliderDots" aria-label="Pilih slide">
+          <button
+            class="dot active"
+            aria-label="Slide 1"
+            data-slide="0"
+          ></button>
+          <button class="dot" aria-label="Slide 2" data-slide="1"></button>
+          <button class="dot" aria-label="Slide 3" data-slide="2"></button>
+        </div>
+      </section>
+
+      <section class="section section-intro" id="tentang">
+        <div class="container two-column">
+          <div>
+            <p class="eyebrow">TENTANG KAMI</p>
+            <h2>Ruang untuk cerita, rasa, dan ekspresi.</h2>
+          </div>
+          <div class="section-copy">
+            <p>
+              Selamat datang di ruang Teater TARUHAN. Bagian ini bisa kamu isi
+              dengan perkenalan komunitas, perjalanan kelompok, visi, atau
+              cerita di balik pertunjukan.
+            </p>
+            <a href="tentang.html" class="text-link"
+              >Kenali kami lebih lanjut <span>↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="pentas">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">PANGGUNG KAMI</p>
+              <h2>Pentas pilihan</h2>
+            </div>
+            <a href="pentas.html" class="text-link"
+              >Lihat halaman pentas <span>↗</span></a
+            >
+          </div>
+          <article class="feature-card">
+            <img
+              src="images/Desain Efek Disobek atau Terbakar (1).png"
+              alt="Placeholder poster pertunjukan TARUHAN"
+            />
+            <div class="feature-card-content">
+              <p class="eyebrow">PERTUNJUKAN UTAMA</p>
+              <h3>TARUHAN</h3>
+              <p>
+                Ganti bagian ini dengan sinopsis singkat, tanggal, lokasi, dan
+                informasi pertunjukan.
+              </p>
+              <a href="#tiket" class="button button-outline">Informasi Tiket</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="arsip">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">JEJAK PERTUNJUKAN</p>
+              <h2>Arsip teater</h2>
+            </div>
+            <a href="arsip.html" class="text-link"
+              >Lihat semua arsip <span>↗</span></a
+            >
+          </div>
+          <div class="card-grid">
+            <article class="image-card">
+              <img
+                src="images/arsip-1.svg"
+                alt="Placeholder arsip pertunjukan pertama"
+              />
+              <div>
+                <h3>Judul Pertunjukan</h3>
+                <p>Tahun / keterangan singkat</p>
+              </div>
+            </article>
+            <article class="image-card">
+              <img
+                src="images/arsip-2.svg"
+                alt="Placeholder arsip pertunjukan kedua"
+              />
+              <div>
+                <h3>Judul Pertunjukan</h3>
+                <p>Tahun / keterangan singkat</p>
+              </div>
+            </article>
+            <article class="image-card">
+              <img
+                src="images/arsip-3.svg"
+                alt="Placeholder arsip pertunjukan ketiga"
+              />
+              <div>
+                <h3>Judul Pertunjukan</h3>
+                <p>Tahun / keterangan singkat</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="dokumentasi">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">DI BALIK LAYAR</p>
+              <h2>Dokumentasi</h2>
+            </div>
+            <a href="dokumentasi.html" class="text-link"
+              >Lihat galeri <span>↗</span></a
+            >
+          </div>
+          <div class="gallery-grid">
+            <img
+              src="images/dok1.JPG"
+              alt="Placeholder dokumentasi 1"
+            />
+            <img
+              src="images/dok2.JPG"
+              alt="Placeholder dokumentasi 2"
+            />
+            <img
+              src="images/dok3.JPG"
+              alt="Placeholder dokumentasi 3"
+            />
+            <img
+              src="images/dok4.JPG"
+              alt="Placeholder dokumentasi 4"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section ticket-section" id="tiket">
+        <div class="container ticket-panel">
+          <p class="eyebrow">JANGAN LEWATKAN</p>
+          <h2>Amankan tempatmu.</h2>
+          <p>
+            Siap menyaksikan TARUHAN? Klik tombol di bawah untuk menuju halaman
+            pemesanan tiket.
+          </p>
+          <!-- GANTI URL DI BAWAH INI DENGAN LINK WEB APP APPS SCRIPT TEMANMU -->
+          <a
+            class="button button-primary ticket-button"
+            href="https://script.google.com/macros/s/AKfycbz5cMhBYqgL1OGYIq0blhaF5wAUznBfd7dfI9GsOHXqfWe17t9ZatF-kMGQbxx3rxdyvQ/exec"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Beli Tiket Sekarang <span>↗</span></a
+          >
+          <small
+            >Ganti tautan tombol ini dengan URL pemesanan tiket resmi sebelum
+            website dipublikasikan.</small
+          >
+        </div>
+      </section>
+
+      <section class="section section-contact" id="kontak">
+        <div class="container two-column">
+          <div>
+            <p class="eyebrow">HUBUNGI KAMI</p>
+            <h2>Mari terhubung.</h2>
+          </div>
+          <div class="section-copy">
+            <p>
+              Tambahkan email, Instagram, nomor kontak panitia, atau informasi
+              lain yang ingin ditampilkan kepada pengunjung.
+            </p>
+            <p class="contact-placeholder">
+              Instagram: @akun_teater_kamu<br />Email: emailkamu@example.com
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="footer-brand" href="#beranda">
+          <img
+            src="images/LOGOS KADUAS.png"
+            alt="Logo Teater TARUHAN"
+            class="footer-logo"
+          />
+          <span>TEATER K2</span>
+        </a>
+        <p>
+          © <span id="currentYear"></span> Teater TARUHAN. Semua hak dilindungi.
+        </p>
+      </div>
+    </footer>
+
+    <button
+      class="floating-button back-to-top"
+      id="backToTop"
+      aria-label="Kembali ke atas"
+    >
+      ↑
+    </button>
+    <button
+      class="floating-button theme-toggle"
+      id="themeToggle"
+      aria-label="Ganti tema"
+      title="Ganti tema"
+    >
+      ☼
+    </button>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
